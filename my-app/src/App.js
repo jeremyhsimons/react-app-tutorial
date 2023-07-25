@@ -5,6 +5,7 @@ import StatefulGreeting from './components/StatefulGreeting';
 import EventFunctional from './components/EventFunctional';
 import EventClass from './components/EventClass';
 import NestingComponents from './components/NestingComponents';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <StatefulGreeting greeting="I'm a stateful class component" name="Frank"/> */}
       {/* <EventFunctional />
       <EventClass /> */}
-      <NestingComponents />
+      {/* <NestingComponents /> */}
+      <RenderingLists />
     </div>
   );
 }
