@@ -7,6 +7,7 @@ import EventClass from './components/EventClass';
 import NestingComponents from './components/NestingComponents';
 import RenderingLists from './components/RenderingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
+import ControlledForm from './components/ControlledForm';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       <EventClass /> */}
       {/* <NestingComponents /> */}
       {/* <RenderingLists /> */}
-      <LifeCyclesCDM />
+      {/* <LifeCyclesCDM /> */}
+      <ControlledForm />
     </div>
   );
 }
