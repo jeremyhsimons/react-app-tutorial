@@ -9,6 +9,7 @@ import RenderingLists from './components/RenderingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import ControlledForm from './components/ControlledForm';
 import UncontrolledForm from './components/UncontrolledForm';
+import SearchBar from './components/SearchBar';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <RenderingLists /> */}
       {/* <LifeCyclesCDM /> */}
       {/* <ControlledForm /> */}
-      <UncontrolledForm />
+      {/* <UncontrolledForm /> */}
+      <SearchBar />
     </div>
   );
 }
