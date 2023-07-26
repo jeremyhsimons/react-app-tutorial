@@ -8,6 +8,7 @@ import NestingComponents from './components/NestingComponents';
 import RenderingLists from './components/RenderingLists';
 import LifeCyclesCDM from './components/LifeCyclesCDM';
 import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <NestingComponents /> */}
       {/* <RenderingLists /> */}
       {/* <LifeCyclesCDM /> */}
-      <ControlledForm />
+      {/* <ControlledForm /> */}
+      <UncontrolledForm />
     </div>
   );
 }
