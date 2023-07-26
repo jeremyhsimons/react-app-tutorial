@@ -6,6 +6,7 @@ import EventFunctional from './components/EventFunctional';
 import EventClass from './components/EventClass';
 import NestingComponents from './components/NestingComponents';
 import RenderingLists from './components/RenderingLists';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       {/* <EventFunctional />
       <EventClass /> */}
       {/* <NestingComponents /> */}
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      <LifeCyclesCDM />
     </div>
   );
 }
